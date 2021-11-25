@@ -58,7 +58,7 @@ Once Docker Image is available in your local Docker Repository, it can be added 
     environment:
       CONTENT_SERVICE_URL: "http://alfresco:8080"
       SPRING_ACTIVEMQ_BROKER_URL: "tcp://activemq:61616"
-      TSA_URL="http://tsa.baltstamp.lt"
+      TSA_URL: "http://tsa.baltstamp.lt"
 ```
 
 Start ACS Stack from folder containing `docker-compose.yml` file.
