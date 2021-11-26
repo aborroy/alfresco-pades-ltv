@@ -9,7 +9,7 @@ Additionally, [Apache PDFBox examples](https://github.com/apache/pdfbox/tree/tru
 
 >> PAdES (PDF Advanced Electronic Signatures) is a set of restrictions and extensions to PDF and ISO 32000-1 making it suitable for Advanced Electronic Signature. PAdES recognizes that digitally-signed documents may be used or archived for many years – even many decades. At any time in the future, in spite of technological and other advances, it must be possible to validate the document to confirm that the signature was valid at the time it was signed – a concept known as Long-Term Validation (LTV).
 
-An external [RFC-3611 TSA](https://en.wikipedia.org/wiki/Trusted_timestamping) is required, using http://tsa.baltstamp.lt by default.
+An external [RFC-3161 TSA](https://en.wikipedia.org/wiki/Trusted_timestamping) is required, using http://tsa.baltstamp.lt by default.
 
 ## Local testing
 
